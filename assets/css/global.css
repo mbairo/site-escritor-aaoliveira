@@ -1,0 +1,86 @@
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+  }  
+header {
+    background-color: #3a3939;
+    color: #fff;
+    text-align: center;
+    /* font-family: 'Qwitcher Grypen'; */
+    /* font-family: 'Caveat', cursive; */
+    font-family: 'Dancing Script', cursive;
+    margin-top: -48px;
+    font-size: 45px;    
+}
+
+.subtitle {
+    /* color: rgb(250, 116, 98); */
+    color: rgb(32, 30, 30);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#menu {
+    background-color: #464545;    
+    text-align: center;
+    width: 100%;  
+}
+
+.container {
+    max-width: 1128px; 
+    margin: 0 auto;   
+    
+} 
+
+#caixa-livro-destaque{
+    padding: 10px;
+    
+}
+
+#img-livro{
+    border-radius: 10px;
+}
+
+/* para centralizar as duas fotos */
+#caixa-foto-autor{
+    display: flex;
+    justify-content: center;
+
+}
+
+#img-autor {
+    align-items: center;
+}
+
+#texto-secundario{
+    font-size: 1.2rem;
+    text-align: center;
+    
+}
+
+#frase-da-semana {
+     /* font-family: 'Qwitcher Grypen'; */
+    /* font-family: 'Caveat', cursive; */
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+#footer-cnpj{    
+}
+
+#whriting{
+    color: rgb(32, 30, 30);
+    text-align: center;
+    padding-bottom: 20px;
+    /* font-family: 'Qwitcher Grypen'; */
+    /* font-family: 'Caveat', cursive; */
+    font-family: 'Dancing Script', cursive;
+}
+
+.marginx {
+    margin: 100px;
+}
