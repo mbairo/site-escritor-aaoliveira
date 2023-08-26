@@ -69,7 +69,7 @@ header {
     
 }
 
-#footer-cnpj{    
+#footer-cnpj{     
 }
 
 #whriting{
@@ -83,4 +83,21 @@ header {
 
 .marginx {
     margin: 100px;
+}
+
+#contato {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.center{
+    text-align: center;
+    
+}
+
+.titulo {
+    text-decoration: none;
+    text-align: center;
 }
