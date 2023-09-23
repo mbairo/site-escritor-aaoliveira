@@ -9,8 +9,17 @@
   <!-- CSS Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+
   <!-- Meu CSS -->
   <link rel="stylesheet" href="../assets/css/global.css">
+  <link href="../assets/css/style.css" rel="stylesheet">
   <link href="../assets/css/footer.css" rel="stylesheet">
 
   <!-- Fontes -->
@@ -28,93 +37,181 @@
     rel="stylesheet">
 
   <!-- Icon para o navegador  -->
-  <link rel="icon" href="../assets/img-logo/icon-aaoliveira.png">
+  <link rel="icon" href="../assets/img-logo/logobrowser.jpeg">
 </head>
 
 <body>
+
   <header>
-    <!-- <a href="index.html"><img src ="img/logo-marca.png" alt="Logo do site" class="logo"></a> -->
-    <div id="header"> <a href="../index.html" class="titulo"> A. A. Oliveira</a></div>
-    <nav id="menu">
-      <a href="sobre.html">Sobre</a>
-      <a href="livros.html">Livros</a>
-      <a href="ficcao.html">Ficção</a>
-      <a href="artigos.html">Artigos</a>
-      <a href="contato.html">Contato</a>
+    <nav id="box-header" class="container navbar navbar-expand-lg bg-body-tertiary">
+      <div id="box-header" class="container-fluid">
+        <!-- <a class="navbar-brand" href="#" id="logo">A. A. <br> Oliveira </a> -->
+        <a class="navbar-brand" href="../index.html"><img id="img-logo" src="../assets/img-logo/logo-aaoliveira1.png"
+            alt=""> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"> <span
+            class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          </ul>
+          <form id="box-menu" class="d-flex">
+            <a class="nav-link" href="../index.html">Início</a>
+            <a class="nav-link" href="../html/sobre.html">Sobre</a>
+            <a class="nav-link" aria-current="page" href="../html/livros.html">Livros</a>
+            <a class="nav-link" href="../html/artigos.html">Artigos</a>
+            <a class="nav-link" href="../html/contato.html">Contato</a>
+          </form>
+        </div>
+      </div>
     </nav>
   </header>
+
 
   <!-- Conteudo do Site -->
   <main>
     <div class="container marketing">
+      <div class="column marginx">
 
-      <h2 class="subtitle marginx">Livros do Autor</h2>
-      <div class="row">
-        <div class="col-lg-4">
-          <img id="img-livro" src="../assets/img/as-cartas.jpg" alt="Generic placeholder image" width="300"
-            height="400">
-          <h2>As Cartas</h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores necessitatibus eaque dicta iusto iure non
-            adipisci quo delectus illum beatae, repudiandae in alias! Obcaecati molestiae, voluptates consequuntur
-            laboriosam fuga ex!</p>
-          <p><a class="btn btn-outline-success"
-              href="https://www.amazon.com.br/As-Cartas-Oliveira-ebook/dp/B0CD18H5VT/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2XKFA84YC7WH9&keywords=as+cartas&qid=1693056749&s=digital-text&sprefix=as+cartas+a%2Cdigital-text%2C184&sr=1-1"
-              target="_blank" role="button" id="1">Comprar &raquo;</a></p>
+        <div id="box-livro" class="clearfix">
+          <img src="../assets/img/o-grande-divorcio-cs-lewis.png" id="img-livro" class="float-end" alt="img-livro"
+            width="300" height="400">
+          <h2>O GRANDE DIVÓRCIO - Autor C. S. Lewis (Ficção)</h2>
+          <p>O livro “O Grande Divórcio” é uma ficção excelente para pensarmos um pouco mais em nossa salvação. A
+            história começa com algumas pessoas, pelo menos eles se veem assim, aguardando um ônibus que os levará a um
+            lugar que mostrará a realidade desses passageiros. O que eles são na verdade? São pessoas? Estão vivos? Esse
+            lugar vai lhes apresentar a realidade cruel, contudo, eles terão a oportunidade de permanecer nesse
+            magnífico lugar. O personagem principal, o próprio autor, também é um passageiro e conhecerá a sua
+            realidade. Ele participa de diálogos e ouve outros personagens dialogando.
+            A ficção é uma forma maravilhosa para ligarmos a realidade com o imaginário, por isso, diante dos diálogos
+            se desenrolando, o leitor pode fazer pontes para uma realidade teológica. No momento em que o personagem
+            principal descobre o seu estado atual e se compara aos habitantes do lugar que eles foram visitar, o leitor
+            pode fazer uma ponte com Filipenses 3.20-21.
+            “20Mas a nossa cidade está nos céus, de onde também esperamos o
+            Salvador, o Senhor Jesus Cristo, 21Que transformará o nosso corpo
+            abatido, para ser conforme o seu corpo glorioso, segundo o seu eficaz
+            poder de sujeitar também a si todas as coisas”.
+            Há diálogos profundos que mostram a maldade humana e vão fazer o
+            leitor pensar a respeito do verdadeiro viver e existir. Qual é a nossa
+            realidade atual e qual será a nossa futura?
+
+            Caso queira comprar o livro “O Grande Divórcio”, direcionaremos
+            para a página de compra da Amazon.</p>
+          <p><a id="btn-comprar" class="btn btn-outline-success" href="https://amzn.to/469MoI0" target="_blank"
+              role="button" id="1">Comprar &raquo;</a></p>
+
         </div>
-        <div class="col-lg-4">
-          <img id="img-livro" src="../assets/img/ataque-invisivel.jpeg" alt="Generic placeholder image" width="300"
-            height="400">
-          <h2>O Ataque Invisível</h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores necessitatibus eaque dicta iusto iure non
-            adipisci quo delectus illum beatae, repudiandae in alias! Obcaecati molestiae, voluptates consequuntur
-            laboriosam fuga ex!</p>
-          <p><a class="btn btn-outline-success"
-              href="https://www.amazon.com.br/Ataque-Invis%C3%ADvel-Anderson-Ara%C3%BAjo-Oliveira-ebook/dp/B07QF3FJLP/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3TPPX0ZRYWMI&keywords=o+ataque+invisivel&qid=1693056358&sprefix=o+ataque+inviseive%2Caps%2C201&sr=8-1"
-              target="_blank" role="button" id="1">Comprar &raquo;</a></p>
+
+        <div id="box-livro" class="clearfix">
+          <img src="../assets/img/o-peregrino-john-bunyan.png" id="img-livro" class="float-end" alt="img-livro"
+            width="300" height="400">
+          <h2>O PEREGRINO — Autor John Bunyan (Ficção)</h2>
+          <p>O livro “O Peregrino” é uma ficção admirável pelo desenrolar da história. Um homem tem um fardo pesado em
+            suas costas e quer se livrar dele. Esse personagem pretende fazer de tudo para sentir a leveza da liberdade,
+            até mesmo deixar para trás sua esposa e seus filhos. Os personagens dessa ficção são incríveis e levam os
+            leitores a compreenderem os significados de seus nomes, pois cada um tem o seu caráter demonstrado neles. O
+            que seria Obstinado? Evangelista? Sábio Mundano? E o que falar sobre Boa Vontade?
+            Eu sou inclinado por livros desse tipo de escrita, personificar adjetivos, substantivos e criar personagens
+            mostrando seus significados. Isso é um aprendizado maravilhoso e que podemos desfrutar da magnífica bondade
+            de Deus. O cuidado para eu não dar spoiler é imenso, mas tenho vontade de contar parte por parte dessa
+            magnífica obra. O leitor vai ter em mãos uma ficção de um servo de Deus, John Bunyan, que foi perseguido e
+            preso por pregar o Evangelho de Jesus Cristo. Esse autor foi um instrumento talentoso nas mãos de Deus por
+            levar a sua Palavra através de ficções que abençoaram milhares de pessoas por todas as nações. Louvado seja
+            Deus!
+            Caso queira comprar o livro “O Peregrino”, direcionaremos
+            para a página de compra da Amazon.</p>
+          <p><a id="btn-comprar" class="btn btn-outline-success" href="https://amzn.to/3sO0TTm" target="_blank"
+              role="button" id="1">Comprar &raquo;</a></p>
+
         </div>
-        <div class="col-lg-4">
-          <img id="img-livro" src="../assets/img/decisao-de-amar.png" alt="Generic placeholder image" width="300"
-            height="400">
-          <h2>A Decisão de Amar</h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores necessitatibus eaque dicta iusto iure non
-            adipisci quo delectus illum beatae, repudiandae in alias! Obcaecati molestiae, voluptates consequuntur
-            laboriosam fuga ex!</p>
-          <p><a class="btn btn-outline-success"
-              href="https://www.amazon.com.br/Decis%C3%A3o-Amar-Anderson-Ara%C3%BAjo-Oliveira-ebook/dp/B0872FC2WX/ref=sr_1_6?qid=1693056669&refinements=p_27%3AAnderson+Ara%C3%BAjo+de+Oliveira&s=digital-text&sr=1-6&text=Anderson+Ara%C3%BAjo+de+Oliveira"
-              target="_blank" role="button" id="1">Comprar &raquo;</a></p>
+        <div id="box-livro" class="clearfix">
+          <img src="../assets/img/a-peregrina-john-bunyan.png" id="img-livro" class="float-end" alt="img-livro"
+            width="300" height="400">
+          <h2>A PEREGRINA — Autor John Bunyan (Ficção)</h2>
+          <p>O livro “A Peregrina” é a continuação da história do peregrino.
+            A esposa e os filhos que ficaram na cidade agora têm o desejo de seguir os passos de seu esposo, o qual
+            ficou conhecido como Cristão.
+            Ela, Cristiana, encontra vários personagens que deixam a história interessante e faz o leitor ter uma linha
+            teológica simples de compreender, mas muito importante para combater enganos que sofremos nos dias
+            hodiernos. O leitor encontrará personagens com o nome de Temerosa, Misericórdia, Bom-Coração e muito mais.
+            Estudar teologia é uma realização maravilhosa e com a simplicidade dessa ficção de John Bunyan, faz sermos
+            humildes, amorosos, obedientes etc.
+            Se o leitor estudar essa ficção com a Bíblia, terá uma base sólida dos ensinamentos de Jesus Cristo.
+            Caso queira comprar o livro “A Peregrina”, direcionaremos
+            para a página de compra da Amazon.</p>
+          <p><a id="btn-comprar" class="btn btn-outline-success" href="https://amzn.to/3RoJwCN" target="_blank"
+              role="button" id="1">Comprar &raquo;</a></p>
+
         </div>
-        <div class="col-lg-4">
-          <img id="img-livro" src="../assets/img/fonema-e-grafia.jpg" alt="Generic placeholder image" width="300"
-            height="400">
-          <h2>O Ataque Invisível</h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores necessitatibus eaque dicta iusto iure non
-            adipisci quo delectus illum beatae, repudiandae in alias! Obcaecati molestiae, voluptates consequuntur
-            laboriosam fuga ex!</p>
-          <p><a class="btn btn-outline-success"
-              href="https://www.amazon.com.br/FONEMA-GRAFIA-CURIOSIDADE-OBRIGA-APRENDER-ebook/dp/B07XVDGM33/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1N0S4EPGIP2GX&keywords=fonema+e+grafia&qid=1693056889&s=digital-text&sprefix=fonema+e+grafi%2Cdigital-text%2C228&sr=1-1"
-              target="_blank" role="button" id="1">Comprar &raquo;</a></p>
+
+        <div id="box-livro" class="clearfix">
+          <img src="../assets/img/introducao-ateologia-evangelica-karl-barth.png" id="img-livro" class="float-end"
+            alt="img-livro" width="300" height="400">
+          <h2>INTRODUÇÃO À TEOLOGIA EVANGÉLICA — Autor Karl Barth (Não ficção)</h2>
+          <p>Todos que estudam Teologia já ouviram falar sobre esse abençoado servo de Deus do século 20, Karl Barth. Um
+            teólogo que traz argumentos profundos sobre as doutrinas bíblicas. Acredito que esse livro demonstra um
+            pouco da sua abençoada mente de transmitir ensinos doutrinários com certa profundidade teológica. Ele passou
+            por algumas fases de sua teologia, mas o importante é que ele não permaneceu iludido pela teologia liberal
+            por muito tempo. Essa mesma teologia que muitos, hoje, estão se afundando em enganos e esfriando a fé de
+            muitos: professores, pastor es, evangelistas, membros...
+            Se o leitor se aprofundar em sua teologia fundamentada nas Sagradas Escrituras, terá uma base sólida para
+            combater ensinos modernos liberais que muitos propagam em nossos dias.
+            Claro que sua linha teológica referente a alguns temas tem falhas, mas ele nos deixou obras magníficas para
+            combater o liberalismo teológico. Se o leitor não conhece um pouco sobre esse servo de Deus, Karl Barth, vou
+            deixar dois links de livros abaixo, pois é um pequeno resumo do seu pensamento teológico sobre os temas
+            principais de seu tempo.
+            Grandes teólogos – Gerald McDermoutt (editora Vida Nova)
+            Teologia sistemática, histórica e filosófica – Alister E. McGrath (Shedd publicações)
+            Caso queira comprar o livro “INTRODUÇÃO À TEOLOGIA EVANGÉLICA”, direcionaremos
+            para a página de compra da Amazon.</p>
+          <p><a id="btn-comprar" class="btn btn-outline-success" href="https://amzn.to/469MNu0" target="_blank"
+              role="button" id="1">Comprar &raquo;</a></p>
+
         </div>
-        <div class="col-lg-4">
-          <img id="img-livro" src="../assets/img/phoneme-and-graphene.jpg" alt="Generic placeholder image" width="300"
-            height="400">
-          <h2>A Decisão de Amar</h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores necessitatibus eaque dicta iusto iure non
-            adipisci quo delectus illum beatae, repudiandae in alias! Obcaecati molestiae, voluptates consequuntur
-            laboriosam fuga ex!</p>
-          <p><a class="btn btn-outline-success"
-              href="https://www.amazon.com.br/Decis%C3%A3o-Amar-Anderson-Ara%C3%BAjo-Oliveira-ebook/dp/B0872FC2WX/ref=sr_1_6?qid=1693056669&refinements=p_27%3AAnderson+Ara%C3%BAjo+de+Oliveira&s=digital-text&sr=1-6&text=Anderson+Ara%C3%BAjo+de+Oliveira"
-              target="_blank" role="button" id="1">Comprar &raquo;</a></p>
+
+        <div id="box-livro" class="clearfix">
+          <img src="../assets/img/jose-charles-r-swindoll.png" id="img-livro" class="float-end" alt="img-livro"
+            width="300" height="400">
+          <h2>Série Heróis da Fé “José” — Autor Charles Swindoll (Não ficção)</h2>
+          <p>Uma série de livros muito boa é desse servo de Deus, Charles Swindoll. Ele traz uma narrativa em cima da
+            história de alguns personagens bíblicos. Esse livro é sobre José, um homem íntegro e indulgente. Eu gosto
+            quando os versículos estão escritos e não preciso parar a leitura para procurá-los. Isso deixa a leitura
+            agradável, e o leitor pode olhar sua narrativa e o versículo abaixo. Caso o leitor queira outra versão da
+            Bíblia, já pode comparar com a que já está escrita no livro. Como falei, eu gosto disso. Penso mais rápido,
+            absorvo as palavras com fervor e sem deixar o raciocínio se perder.
+            Para quem fez, está fazendo ou fará o curso “Homem ao Máximo”, esse é um livro que precisará fazer parte do
+            material, pois há ensinos importantes que são tratados no curso “Homem ao Máximo”.
+            Esse livro vale muito a pena e o aprendizado é surreal para um crescimento espiritual e social com base
+            bíblica.
+            Outra coisa, deixei o link da Amazon no COMPRA, mas caso você queira comprar um kit de cinco livros dessa
+            série, na editora Thomas Nelson, às vezes, tem promoção por R$ 99,90. Deus abençoe grandemente a sua vida e
+            a sua família.
+            Caso queira comprar o livro “Série Heróis da Fé - José”, direcionaremos
+            para a página de compra da Amazon.
+          </p>
+          <p><a id="btn-comprar" class="btn btn-outline-success" href="https://amzn.to/45UIe70" target="_blank"
+              role="button" id="1">Comprar &raquo;</a></p>
+
         </div>
+
       </div>
-      <hr class="featurette-divider">
+
+
+    </div>
+
+
+
+
     </div>
     <hr class="featurette-divider">
     <footer>
       <section>
         <div id="containerFooter">
-          <p id="frase-da-semana">"A leitura engrandece a alma" <br>Voltaire</p>
+          <p id="frase-da-semana">"Porque Deus amou o mundo de tal maneira que deu o seu Filho Unigênito, para que todo
+            aquele
+            que nele crê não pereça, mas tenha a vida eterna." <br>João 3.16</p>
         </div>
-        <p id="footer-cnpj" style="text-align: center; font-size: 15px;">&copy;A. A Oliveira CNPJ: 87486746518468</p>
+        <p id="footer-cnpj" style="text-align: center; font-size: 15px;">&copy;Desenvolvedor mbairo</p>
       </section>
     </footer>
   </main>
@@ -132,4 +229,5 @@
   <!-- Meu Js -->
   <script src="../assets/js/index.js"></script>
 </body>
+
 </html>

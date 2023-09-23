@@ -2,17 +2,50 @@
 body {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    color: #5a5a5a;
+    /* color: #5a5a5a; */
   }  
-header {
-    background-color: #3a3939;
-    color: #fff;
-    text-align: center;
+  
+header { 
+    background-color: rgb(129, 196, 252); 
+    /* text-align: center; */
     /* font-family: 'Qwitcher Grypen'; */
-    /* font-family: 'Caveat', cursive; */
-    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Caveat', cursive; */    
     margin-top: -48px;
-    font-size: 45px;    
+    font-size: 45px;     
+}
+
+#box-header {    
+    padding: 0%;
+    background-color: rgb(129, 196, 252); 
+}
+
+#box-menu {
+    padding-top: 17vh;
+    font-size: 2rem;
+}
+
+#img-logo {
+    height: 15vh;
+    
+}
+
+#box-livro {
+    margin-bottom: 50px;
+}
+p{
+    text-align: justify;
+}
+
+a {
+    margin: 10px;
+}
+
+#box-menu a:hover {
+    color: whitesmoke;
+}
+
+#btn-comprar {
+    margin-bottom: 40px;
 }
 
 .subtitle {
@@ -22,18 +55,6 @@ header {
     padding-bottom: 20px;
 }
 
-#menu {
-    background-color: #464545;    
-    text-align: center;
-    width: 100%;  
-}
-
-.container {
-    max-width: 1128px; 
-    margin: 0 auto;   
-    
-} 
-
 #caixa-livro-destaque{
     padding: 10px;
     
@@ -41,7 +62,12 @@ header {
 
 #img-livro{
     border-radius: 10px;
+    margin-bottom: 20px;
+
+    margin-left: 1rem;
 }
+
+
 
 /* para centralizar as duas fotos */
 #caixa-foto-autor{
@@ -85,6 +111,10 @@ header {
     margin: 100px;
 }
 
+#margin-top {
+    margin-top: 10vh;
+}
+
 #contato {
     color: black;
     text-decoration: none;
@@ -97,7 +127,59 @@ header {
     
 }
 
-.titulo {
+
+
+
+/* .container {
+    max-width: 1128px; 
+    margin: 0 auto;   
+    
+}  */
+
+
+/* #logo {
+    color: black;
     text-decoration: none;
-    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 6vh;
+    padding-bottom: 2vh;
+    padding-top: 8vh;
+    
+
+    /* text-align: center; */
+    /* margin-top: 100px; */
+    /* flex-grow: 1; */
+    /* max-width: 1300px; 
+    margin-left: 200px; 
+} */
+
+/* 
+#menu-1 {
+    margin-top: 100px;
+    margin-left: 300px;
+    text-decoration: none;
+    color: black;
+
 }
+#menu-2 {
+    margin-top: 100px;
+    text-decoration: none;
+    color: black;
+}
+#menu-3 {
+    margin-top: 100px;
+    text-decoration: none;
+    color: black;
+    
+}
+#menu-4 {
+    margin-top: 100px;
+    text-decoration: none;
+    color: black;
+}
+#menu-5 {
+    margin-top: 100px;
+    text-decoration: none;
+    color: black;
+    padding-right: 200px;
+} */

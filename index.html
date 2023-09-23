@@ -9,55 +9,88 @@
   <!-- CSS Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
-  
-    <!-- Meu CSS -->
-  <link rel="stylesheet" href="assets/css/global.css"><link href="../assets/css/style.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+
+  <!-- Meu CSS -->
+  <link rel="stylesheet" href="assets/css/global.css">
+  <link href="../assets/css/style.css" rel="stylesheet">
   <link href="assets/css/footer.css" rel="stylesheet">
 
   <!-- Fontes -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&family=Roboto:wght@100;300;500;700&display=swap"
+    rel="stylesheet">
 
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Dancing+Script:wght@400;700&display=swap"
+    rel="stylesheet">
 
   <!-- Icon para o navegador  -->
-  <link rel="icon" href="assets/img-logo/icon-aaoliveira.png">
+  <link rel="icon" href="assets/img-logo/logobrowser.jpeg">
 </head>
 
 <body>
+
   <header>
-    <!-- <a href="index.html"><img src ="img/logo-marca.png" alt="Logo do site" class="logo"></a> -->
-    <div id="header"> <a href="index.html" class="titulo"> A. A. Oliveira</a></div>
-    <nav id="menu">
-      <a href="html/sobre.html">Sobre</a>
-      <a href="html/livros.html">Livros</a>
-      <a href="html/ficcao.html">Ficção</a>
-      <a href="html/artigos.html">Artigos</a>
-      <a href="html/contato.html">Contato</a>
+    <nav id="box-header" class="container navbar navbar-expand-lg bg-body-tertiary">
+      <div id="box-header" class="container-fluid">
+        <!-- <a class="navbar-brand" href="#" id="logo">A. A. <br> Oliveira </a> -->
+        <a class="navbar-brand" href="../index.html"><img id="img-logo" src="../assets/img-logo/logo-aaoliveira1.png" alt=""> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"> <span
+            class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          </ul>
+          <form id="box-menu" class="d-flex">
+            <a id="a-link" class="nav-link active" aria-current="page" href="index.html">Início</a>
+            <a class="nav-link" href="html/sobre.html">Sobre</a>
+            <a class="nav-link" href="html/livros.html">Livros</a>
+            <a class="nav-link" href="html/artigos.html">Artigos</a>
+            <a class="nav-link" href="html/contato.html">Contato</a>
+          </form>
+        </div>
+      </div>
     </nav>
   </header>
+
+
   <!-- Conteudo do Site -->
   <main>
-    <div class="container marketing">
+    <div id="margin-top" class="container marketing">
       <!-- Livro em Destaque -->
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">O Ataque Invisível</h2>
-          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid fugiat necessitatibus beatae
-            quaerat qui sed delectus dignissimos voluptates dolorem ullam, dolorum id nam reprehenderit earum, harum
-            itaque illum rem corrupti.</p>
-          <p><a class="btn btn-outline-success" href="https://www.amazon.com.br/Ataque-Invis%C3%ADvel-Anderson-Ara%C3%BAjo-Oliveira-ebook/dp/B07QF3FJLP/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3TPPX0ZRYWMI&keywords=o+ataque+invisivel&qid=1693056358&sprefix=o+ataque+inviseive%2Caps%2C201&sr=8-1" target="_blank" role="button" id="4">Comprar &raquo;</a></p>
+          <h2 class="featurette-heading">As Cartas</h2>
+          <p class="lead">"As Cartas" é uma ficção histórica, baseada no início da propagação do
+            Evangelho que ocorreu no primeiro século. A história surgiu para tentar
+            responder "como seria ver Jesus Cristo e viver nos dias de sua ressurreição?"
+            Sete personagens vivem nessa época para nos mostrar um pouco dos dias que
+            mudaram o percurso da história humana: a ressurreição de Jesus Cristo.
+            Doze cartas sobre os dias de Jesus Cristo foram encontradas. Um período
+            angustiante para o povo, mas o Verbo se fez carne e habitou entre os homens,
+            mulheres e crianças. Sete leprosos em uma caverna têm a esperança renascida
+            ao ter conhecimento sobre um homem que faz milagres e perdoa pecados. Eles
+            descobrem que tudo é possível ao que crê. Essa ficção vai fazer você entrar na
+            caverna sem esperança e sair dela com salvação eterna.</p>
+          <p><a class="btn btn-outline-success"
+              href="https://amzn.to/3ZlJAoP"
+              target="_blank" role="button" id="4">Comprar &raquo;</a></p>
         </div>
         <div id="caixa-livro-destaque" class="col-md-5">
-          <img id="img-livro" class="featurette-image img-fluid mx-auto" src="assets/img/ataque-invisivel.jpeg"
+          <img id="img-livro" class="featurette-image img-fluid mx-auto" src="assets/img/as-cartas.jpg"
             alt="Generic placeholder image">
         </div>
       </div>
@@ -65,38 +98,49 @@
       <h2 class="subtitle">Conheça todas as obras</h2>
       <div class="row">
         <div class="col-lg-4">
-          <img id="img-livro" src="assets/img/as-cartas.jpg" alt="Generic placeholder image" width="300"
-            height="400">
-          <h2>As Cartas</h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores necessitatibus eaque dicta iusto iure non
-            adipisci quo delectus illum beatae, repudiandae in alias! Obcaecati molestiae, voluptates consequuntur
-            laboriosam fuga ex!</p>
-          <p><a class="btn btn-outline-success" href="https://www.amazon.com.br/As-Cartas-Oliveira-ebook/dp/B0CD18H5VT/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2XKFA84YC7WH9&keywords=as+cartas&qid=1693056749&s=digital-text&sprefix=as+cartas+a%2Cdigital-text%2C184&sr=1-1" target="_blank" role="button" id="1">Comprar &raquo;</a></p>
+          <img id="img-livro" src="assets/img/ataque-invisivel.jpeg" alt="Generic placeholder image" width="300" height="400">
+          <h2>O Ataque Invisível</h2>
+          <p>Este livro leva aos leitores um conceito primário ligado a um secundário. A Gramática e a
+            Informática se entrelaçam e formam uma ficção personificada dos temas centrais da Língua
+            Portuguesa com humor e muito suspense. Por que suspense? Alguém está deixando a
+            Professora Ortografia (ou simplesmente Ortografia) sem saber o que fazer! Então, ela deverá
+            chamar o Fonema e a Grafia para ajudá-la a desvendar ou encobrir algo horrível. O motivo
+            desse drama é que alguém está acessando a rede das palavras e ninguém sabe quem é o
+            invasor (ou os invasores), podendo ser qualquer um dos personagens.</p>
+          <p><a class="btn btn-outline-success"
+              href="https://amzn.to/3ZjM1Ix"
+              target="_blank" role="button" id="1">Comprar &raquo;</a></p>
         </div>
         <div class="col-lg-4">
-          <img id="img-livro" src="assets/img/ataque-invisivel.jpeg" alt="Generic placeholder image" width="300"
-            height="400">
-          <h2>O Ataque Invisível</h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores necessitatibus eaque dicta iusto iure non
-            adipisci quo delectus illum beatae, repudiandae in alias! Obcaecati molestiae, voluptates consequuntur
-            laboriosam fuga ex!</p>
-          <p><a class="btn btn-outline-success" href="https://www.amazon.com.br/Ataque-Invis%C3%ADvel-Anderson-Ara%C3%BAjo-Oliveira-ebook/dp/B07QF3FJLP/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3TPPX0ZRYWMI&keywords=o+ataque+invisivel&qid=1693056358&sprefix=o+ataque+inviseive%2Caps%2C201&sr=8-1" target="_blank" role="button" id="1">Comprar &raquo;</a></p>
+          <img id="img-livro" src="assets/img/resumo-para-escrever-ficcao.jpeg" alt="Generic placeholder image" width="300" height="400">
+          <h2>Resumo Para Escrever Ficção</h2>
+          <p>Este e-book tem a finalidade de levar um resumo sobre o processo de escrita para ficção. Há
+            explicações sobre narrativa, tipos de discurso, gramática, dicas, bônus e tem pontos importantes
+            sobre a escrita amadora, os quais muitas vezes paralisam o sujeito em desenvolver essa habilidade
+            expressiva.</p>
+          <p><a class="btn btn-outline-success"
+              href="https://amzn.to/3EDSAfN"
+              target="_blank" role="button" id="1">Comprar &raquo;</a></p>
         </div>
         <div class="col-lg-4">
           <img id="img-livro" src="assets/img/decisao-de-amar.png" alt="Generic placeholder image" width="300"
             height="400">
           <h2>A Decisão de Amar</h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores necessitatibus eaque dicta iusto iure non
-            adipisci quo delectus illum beatae, repudiandae in alias! Obcaecati molestiae, voluptates consequuntur
-            laboriosam fuga ex!</p>
-          <p><a class="btn btn-outline-success" href="https://www.amazon.com.br/Decis%C3%A3o-Amar-Anderson-Ara%C3%BAjo-Oliveira-ebook/dp/B0872FC2WX/ref=sr_1_6?qid=1693056669&refinements=p_27%3AAnderson+Ara%C3%BAjo+de+Oliveira&s=digital-text&sr=1-6&text=Anderson+Ara%C3%BAjo+de+Oliveira" target="_blank" role="button" id="1">Comprar &raquo;</a></p>
+          <p>O livro A decisão de amar mostra que as escolhas para amar devem ser feitas, mesmo não se
+            tendo o retorno esperado. O sentido do amor se perde quando a sentença "Eu te amarei se tu
+            me amares" é guardada no fundo do coração e sempre retirada para lê-la. Este livro conta a
+            história de um músico que é acolhido nos braços de um amor verdadeiro, que o deixa
+            determinado a buscar o seu maior sonho, mas, no fundo, a sua maior conquista já está em</p>
+          <p><a class="btn btn-outline-success"
+              href="https://amzn.to/3RtCKMp"
+              target="_blank" role="button" id="1">Comprar &raquo;</a></p>
         </div>
       </div>
       <hr class="featurette-divider">
       <!-- Livros de Graça -->
       <h2 class="subtitle">Quer Ganhar uma HQ educacional grátis do escritor A. A. Araújo?</h2>
       <h3 id="texto-secundario" class="text-body-secondary">Envie um e-mail para contato@aaoliveira.com.br e peça sua HQ
-        educacional em Portugês ou Ingês.</h3>
+        educacional em Português ou Inglês.</h3>
       <div id="caixa-foto-autor" class="row">
         <div id="img-autor" class="col-lg-4">
           <img id="img-livro" src="assets/img/fonema-e-grafia.jpg" alt="Generic placeholder image" width="300"
@@ -107,7 +151,8 @@
             laboriosam fuga ex!</p>
         </div>
         <div class="col-lg-4">
-          <img id="img-livro" src="assets/img/phoneme-and-graphene.jpg" alt="Generic placeholder image" width="300" height="400">
+          <img id="img-livro" src="assets/img/phoneme-and-graphene.jpg" alt="Generic placeholder image" width="300"
+            height="400">
           <h2>Phonema and Graphene</h2>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores necessitatibus eaque dicta iusto iure non
             adipisci quo delectus illum beatae, repudiandae in alias! Obcaecati molestiae, voluptates consequuntur
@@ -116,35 +161,16 @@
       </div>
       <!-- Fim div Livros de Graça -->
       <hr class="featurette-divider">
-      <!-- Autor -->
-      <h2 class="subtitle">Autor</h2>
-      <div id="caixa-foto-autor" class="row">
-        <div id="img-autor" class="col-lg-4">
-          <img id="img-livro" src="assets/img/autor-aaoliveira.jpg" alt="Generic placeholder image" width="300"
-            height="400">
-          <h2>Anderson Araújo de Oliveira</h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores necessitatibus eaque dicta iusto iure non
-            adipisci quo delectus illum beatae, repudiandae in alias! Obcaecati molestiae, voluptates consequuntur
-            laboriosam fuga ex!</p>
-        </div>
-        <div id="img-autor" class="col-lg-4">
-          <img id="img-livro" src="assets/img/livraria.jpg" alt="Generic placeholder image" width="300"
-            height="400">
-          <h2>Um sonho... Muitas histórias</h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores necessitatibus eaque dicta iusto iure non
-            adipisci quo delectus illum beatae, repudiandae in alias! Obcaecati molestiae, voluptates consequuntur
-            laboriosam fuga ex!</p>
-        </div>
-      </div>
-      <!-- Fim div Autor -->
       <hr class="featurette-divider">
     </div>
     <footer>
       <section>
         <div id="containerFooter">
-          <p id="frase-da-semana">"A leitura engrandece a alma" <br>Voltaire</p>
+          <p id="frase-da-semana">"Porque Deus amou o mundo de tal maneira que deu o seu Filho Unigênito, para que todo
+            aquele
+            que nele crê não pereça, mas tenha a vida eterna." <br>João 3.16</p>
         </div>
-        <p id="footer-cnpj" style="text-align: center; font-size: 15px;">&copy;A. A Oliveira CNPJ: 87486746518468</p>
+        <p id="footer-cnpj" style="text-align: center; font-size: 15px;">&copy;Desenvolvedor mbairo</p>
       </section>
     </footer>
   </main>
@@ -162,4 +188,5 @@
   <!-- Meu Js -->
   <script src="assets/js/index.js"></script>
 </body>
+
 </html>
